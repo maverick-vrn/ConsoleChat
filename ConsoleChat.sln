@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChat_Server", "ConsoleChat_Server\ConsoleChat_Server.csproj", "{F7448C6A-898B-4937-AD0E-3E25081D05E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChat_Client", "ConsoleChat_Client\ConsoleChat_Client.csproj", "{76B7DFA1-D365-44F6-8978-C8D029F9C194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7448C6A-898B-4937-AD0E-3E25081D05E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7448C6A-898B-4937-AD0E-3E25081D05E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7448C6A-898B-4937-AD0E-3E25081D05E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7448C6A-898B-4937-AD0E-3E25081D05E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7DFA1-D365-44F6-8978-C8D029F9C194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7DFA1-D365-44F6-8978-C8D029F9C194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7DFA1-D365-44F6-8978-C8D029F9C194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7DFA1-D365-44F6-8978-C8D029F9C194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A4739FB-DDC5-40E9-9799-F98D612780C0}
+	EndGlobalSection
+EndGlobal
