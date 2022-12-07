@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-string host = "localhost";
+string host = "127.0.0.1";
 int port = 8888;
 using TcpClient client = new TcpClient();
 Console.Write("Введите свое имя: ");
