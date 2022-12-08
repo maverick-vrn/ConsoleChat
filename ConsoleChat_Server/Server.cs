@@ -1,8 +1,14 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-ServerObject server = new ServerObject();// создаем сервер
-await server.ListenAsync(); // запускаем сервер
+internal class Server
+{
+    private static async Task Main(string[] args)
+    {
+        ServerObject server = new ServerObject();// создаем сервер
+        await server.ListenAsync(); // запускаем сервер
+    }
+}
 
 class ServerObject
 {
